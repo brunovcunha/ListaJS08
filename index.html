@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>É par?</title>
+</head>
+
+<body>
+    <header>
+        <div class="nivel">
+            <p>Nível</p>
+            <select name="" id="nivel">
+                <option value="00">Selecione</option>
+                <option value="90">Fácil</option>
+                <option value="60">Médio</option>
+                <option value="30">Difícil</option>
+            </select>
+        </div>
+        
+        <p>Tempo: <span id="tempo"></span></p>
+        
+        
+        <div class="btns">
+            <button id="btnIniciar">Iniciar</button>
+            <button id="btnPausar">Pausar</button>
+            <button id="btnParar">Parar</button>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="numAleatorio">_</h1>
+    </main>
+
+    <footer>
+        <p>Acertos: <span id="acertos"></span>(<span id="porcentagemAcertos"></span>)</p>
+        <p>Erros: <span id="erros"></span></p>
+        <p>Numeros pares sorteados: <span id="paresSorteados"></span></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

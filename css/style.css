@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    cursor: url(../cursor/seta.png), auto;
+}
+
+body {
+    height: 100vh;
+   
+}
+
+header,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    height: 10%;
+}
+
+
+
+header div {
+    display: flex;
+    margin: 10px;
+}
+
+
+p {
+    font-size: 25px;
+    margin: 10px;
+    color: #E6E600;
+    text-align: center;
+}
+
+span {
+    color: #fff;
+}
+
+.nivel select {
+    background-color: #FFFFA8;
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 180px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: url(../cursor/pointer.png), auto;
+}
+
+
+.btns button {
+    padding: 8px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #623579;
+    color: #fff;
+    cursor: url(../cursor/pointer.png), auto;
+    max-width: 150px;
+    font-size: 20px;
+    font-weight: ;
+    text-align: center;
+}
+
+.btns button:hover{
+    background-color: #62357985;
+    font-weight: bold;
+}
+
+#btnPausar{
+    display: none;
+}
+
+#btnParar{
+    display: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+
+
+#numAleatorio{
+    cursor: url(../cursor/pointer.png), auto;
+    font-size: 300px;
+}
